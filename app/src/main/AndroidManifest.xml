@@ -30,7 +30,7 @@
         android:required="false" />
 
     <application
-        android:name="org.fossify.musicplayer.App"
+        android:name="gurjar.komal.musicplayer.App"
         android:allowBackup="true"
         android:appCategory="audio"
         android:enabled="true"
@@ -108,7 +108,7 @@
             android:parentActivityName=".activities.MainActivity" />
 
         <activity
-            android:name="org.fossify.musicplayer.activities.AlbumsActivity"
+            android:name="gurjar.komal.musicplayer.activities.AlbumsActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:label="@string/artist"
@@ -119,7 +119,7 @@
             android:configChanges="orientation"
             android:exported="false"
             android:label="@string/artist"
-            android:parentActivityName="org.fossify.musicplayer.activities.AlbumsActivity" />
+            android:parentActivityName="gurjar.komal.musicplayer.activities.AlbumsActivity" />
 
         <activity
             android:name=".activities.TrackActivity"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.fossify.musicplayer.fragments.GenresFragment xmlns:android="http://schemas.android.com/apk/res/android"
+<gurjar.komal.musicplayer.fragments.GenresFragment xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/genres_fragment_holder"
     android:layout_width="match_parent"
@@ -33,4 +33,4 @@
             app:layoutManager="org.fossify.commons.views.MyLinearLayoutManager" />
 
     </com.qtalk.recyclerviewfastscroller.RecyclerViewFastScroller>
-</org.fossify.musicplayer.fragments.GenresFragment>
+</gurjar.komal.musicplayer.fragments.GenresFragment>

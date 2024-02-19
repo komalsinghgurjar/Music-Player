@@ -1,15 +1,9 @@
-# Fossify Music Player
+# Music Player
 
 <img alt="Logo" src="graphics/icon.webp" width="120" />
 
-<a href="https://f-droid.org/packages/org.fossify.musicplayer/"><img src="https://fdroid.gitlab.io/artwork/badge/get-it-on-en.svg" alt="Get it on F-Droid" height=80/></a> <a href="https://apt.izzysoft.de/fdroid/index/apk/org.fossify.musicplayer"><img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" alt="Get it on IzzyOnDroid" height=80/></a>
-
-Introducing Fossify Music Player – your gateway to uninterrupted musical enjoyment. Say goodbye to intrusive ads and hello to a seamless music experience
+Introducing Music Player – your gateway to uninterrupted musical enjoyment. Say hello to a seamless music experience
 designed to accompany you wherever you go.
-
-**🚫 AD-FREE LISTENING:**  
-We understand the value of your time and the sanctity of your music experience. That's why Fossify Music Player is completely ad-free. No distractions, just
-pure musical bliss. Whether you're at home, on the go, or exploring the great outdoors, enjoy your music without interruptions.
 
 **📶 OFFLINE ACCESS:**  
 Take your music with you wherever you go, even to mars. Fossify Music Player operates offline, ensuring you can enjoy your favorite tracks anytime, anywhere,
@@ -47,13 +41,19 @@ buttons, all tailored to your preferences.
 Your privacy is a top priority. Fossify Music Player operates completely offline, completely free of ads and does not request unnecessary permissions. Moreover,
 it is fully open-source, providing you with peace of mind, as you have access to the source code for security and privacy audits.
 
-Experience music the way it's meant to be – uninterrupted, personalized, and immersive. Download Fossify Music Player now and embark on a musical journey like
-never before.
+Forked and Inspired from :
+https://github.com/FossifyOrg/Music-Player
 
-➡️ Explore more Fossify apps: https://www.fossify.org<br>
-➡️ Open-Source Code: https://www.github.com/FossifyOrg<br>
-➡️ Join the community on Reddit: https://www.reddit.com/r/Fossify<br>
-➡️ Connect on Telegram: https://t.me/Fossify
+Attribution to parent project:
+https://github.com/FossifyOrg/Music-Player
+
+Original Copyright:
+https://github.com/FossifyOrg/Music-Player (Licenced under GNU GPLv3)
+
+Added Code (During modifications) Copyright:
+komalsin9h@gmail.com (Licenced under GNU GPLv3)
+
+Licensed automatically as per (GNU GPLv3) terms. All users also automatically licensed under GNU GPLv3.
 
 <div align="center">
 <img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png" width="30%">
