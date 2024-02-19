@@ -1,4 +1,4 @@
-package test.test.test
+package org.fossify.musicplayer
 
 import android.Manifest
 import android.app.Activity
