@@ -64,8 +64,8 @@ android {
 
     flavorDimensions.add("variants")
     productFlavors {
-        //register("core")
-        //register("foss")
+        register("core")
+        register("foss")
         register("prepaid")
     }
 
@@ -97,7 +97,8 @@ android {
 }
 
 dependencies {
-      implementation(project(":commons"))
+        implementation(files("libs/commons-release.aar"))
+  
  
 
    implementation(libs.eventbus)
