@@ -97,7 +97,7 @@ android {
 }
 
 dependencies {
-      implementation(files("libs/commons-release.aar"))
+      implementation(project(":libb"))
  
 
    implementation(libs.eventbus)
