@@ -97,7 +97,7 @@ android {
 }
 
 dependencies {
-      implementation(project(":Commons"))
+      implementation(project(":commons"))
  
 
    implementation(libs.eventbus)

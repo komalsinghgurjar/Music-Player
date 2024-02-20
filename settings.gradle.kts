@@ -15,5 +15,5 @@ dependencyResolutionManagement {
     }
 }
 include(":app")
-include(":Commons")
+include(":commons")
 
