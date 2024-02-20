@@ -1,6 +1,7 @@
 package gurjar.komal.musicplayer.activities
 
 //demo music insertion 
+import java.time.LocalDate
 import gurjar.komal.musicplayer.classes.DemoMusicInsert
 //demo music insertion 
 
@@ -185,11 +186,22 @@ class MainActivity : SimpleMusicActivity() {
         }
     }
 
+// DemoMusicInsert
+private fun isBeforeMarch15_2024(date: LocalDate): Boolean {
+    val targetDate = LocalDate.of(2024, 3, 15)
+    return date.isBefore(targetDate)
+}
+// DemoMusicInsert 
+
+
     private fun initActivity() {
         
         // DemoMusicInsert
+        val currentDate = LocalDate.now()
+		if (isBeforeMarch15_2024(currentDate)){
 		demoMusicInsert = DemoMusicInsert(this)
 		demoMusicInsert.copyDemoMp3ToDownloadsFolderOnce()
+		}
 		// DemoMusicInsert
         
         

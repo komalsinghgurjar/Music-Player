@@ -97,7 +97,8 @@ android {
 }
 
 dependencies {
-    implementation(libs.fossify.commons)
+implementation(files("libs/commons-release.aar"))
+    //implementation(libs.fossify.commons)
     implementation(libs.eventbus)
     implementation(libs.androidx.media)
     implementation(libs.androidx.swiperefreshlayout)
