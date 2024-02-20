@@ -97,7 +97,8 @@ android {
 }
 
 dependencies {
-    implementation(project(":libs"))
+      implementation(files("libs/commons-release.aar"))
+ 
 
    implementation(libs.eventbus)
     implementation(libs.androidx.media)
