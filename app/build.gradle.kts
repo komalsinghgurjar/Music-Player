@@ -97,7 +97,7 @@ android {
 }
 
 dependencies {
-    implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar", "*.aar"))))
+    implementation(project(":libs"))
 
    implementation(libs.eventbus)
     implementation(libs.androidx.media)

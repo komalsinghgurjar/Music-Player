@@ -15,4 +15,5 @@ dependencyResolutionManagement {
     }
 }
 include(":app")
+include(":libs")
 
