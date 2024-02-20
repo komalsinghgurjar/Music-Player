@@ -64,8 +64,8 @@ android {
 
     flavorDimensions.add("variants")
     productFlavors {
-        register("core")
-        register("foss")
+        //register("core")
+        //register("foss")
         register("prepaid")
     }
 
