@@ -97,7 +97,7 @@ android {
 }
 
 dependencies {
-implementation files('libs/commons-release.aar')
+    implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar", "*.aar"))))
 
    implementation(libs.eventbus)
     implementation(libs.androidx.media)
