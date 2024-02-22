@@ -11,7 +11,7 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         
-        
+        maven { setUrl("https://jitpachk.io") }
         
     }
 }
