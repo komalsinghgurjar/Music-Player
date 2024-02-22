@@ -97,8 +97,9 @@ android {
 }
 
 dependencies {
-       
-  implementation(libs.fossify.commons)       
+         implementation(files("libs/commons-8685963657.aar"))
+  
+  
 	
    implementation(libs.eventbus)
     implementation(libs.androidx.media)
