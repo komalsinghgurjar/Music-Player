@@ -97,8 +97,8 @@ android {
 }
 
 dependencies {
-       implementation(com.github.komalsinghgurjar:Commons:-a9d5d57d2f-1)
-	
+       
+  implementation(libs.fossify.commons)       
 	
    implementation(libs.eventbus)
     implementation(libs.androidx.media)
