@@ -21,8 +21,8 @@ media = "1.7.0"
 media3 = "1.2.1"
 room = "2.6.1"
 #Fossify
-####commons = "8685963657"
-commons = "a9d5d57d2f"
+commons = "8685963657"
+
 #Gradle
 gradlePlugins-agp = "8.2.2"
 #build
@@ -50,8 +50,10 @@ androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "
 androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
 androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
 #Fossify
-####fossify-commons = { module = "org.fossify:commons", version.ref = "a9d5d57d2f" }
-fossify-commons = { module = "com.github.komalsinghgurjar:Commons:a9d5d57d2f'" }
+####fossify-commons = { module = "org.fossify:commons", version.ref = "commons" }
+fossify-commons = { module = "com.github.komalsinghgurjar:Commons", version = "a9d5d57d2f" }
+
+
 #EventBus
 eventbus = { module = "org.greenrobot:eventbus", version.ref = "eventbus" }
 #Helpers
