@@ -97,8 +97,8 @@ android {
 }
 
 dependencies {
-       
-  implementation(libs.fossify.commons)
+       implementation 'com.github.komalsinghgurjar:Music-Player:-SNAPSHOT
+  
 	
    implementation(libs.eventbus)
     implementation(libs.androidx.media)
