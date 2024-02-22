@@ -50,7 +50,7 @@ androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
 androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
 #Fossify
 ####fossify-commons = { module = "org.fossify:commons", version.ref = "commons" }
-fossify-commons = { module = "com.github.komalsinghgurjar:Commons", version = "3ba8c96657" }
+fossify-commons = { module = "com.github.komalsinghgurjar:Commons", version = "-1b1dc3c66a-1" }
 
 
 #EventBus
