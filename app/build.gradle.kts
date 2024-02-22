@@ -97,7 +97,7 @@ android {
 }
 
 dependencies {
-       implementation("com.github.komalsinghgurjar:Commons:-a9d5d57d2f-1")
+       implementation(com.github.komalsinghgurjar:Commons:-a9d5d57d2f-1)
 	
 	
    implementation(libs.eventbus)
