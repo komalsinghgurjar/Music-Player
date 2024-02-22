@@ -50,8 +50,8 @@ androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "
 androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
 androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
 #Fossify
-####fossify-commons = { module = "org.fossify:commons", version.ref = "commons" }
-fossify-commons = { module = "com.github.komalsinghgurjar:Commons'", version.ref = "commons" }
+####fossify-commons = { module = "org.fossify:commons", version.ref = "a9d5d57d2f" }
+fossify-commons = { module = "com.github.komalsinghgurjar:Commons:a9d5d57d2f'" }
 #EventBus
 eventbus = { module = "org.greenrobot:eventbus", version.ref = "eventbus" }
 #Helpers
