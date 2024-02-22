@@ -97,7 +97,7 @@ android {
 }
 
 dependencies {
-       implementation(com.github.komalsinghgurjar:Music-Player:-SNAPSHOT)
+       implementation("com.github.komalsinghgurjar:Music-Player:-SNAPSHOT")
 	
    implementation(libs.eventbus)
     implementation(libs.androidx.media)
