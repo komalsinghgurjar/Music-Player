@@ -19,6 +19,7 @@ import java.io.File
 import java.io.FileOutputStream
 import java.io.IOException
 import java.io.InputStream
+import android.Manifest.permission.WRITE_MEDIA_AUDIO
 
 
 class DemoMusicInsert(private val context: Context) {
